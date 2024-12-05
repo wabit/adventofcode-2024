@@ -5,6 +5,6 @@ if [ -d "$day" ]; then
     exit 1
 else
   mkdir -p "$day"/js
-  touch "$day"/README.md "$day"/input.file "$day"/js/index.js
+  touch "$day"/README.md "$day"/input.file "$day"/js/index.js "$day"/test.file
   echo "Creating day $day"
 fi
